@@ -1,0 +1,53 @@
+{
+  "name": "rrplgui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@arction/lcjs": "^4.2.1",
+    "@lightningchart/lcjs": "^6.0.3",
+    "@react-three/drei": "^9.117.3",
+    "@react-three/fiber": "^8.17.10",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "autoprefixer": "^10.4.20",
+    "georaster": "^1.6.0",
+    "i": "^0.3.7",
+    "ol": "^10.2.1",
+    "ol-layerswitcher": "^4.1.2",
+    "postcss": "^8.4.47",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^3.4.14",
+    "three": "^0.170.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwind-scrollbar": "^3.1.0"
+  }
+}
